@@ -1,0 +1,80 @@
+$date
+    Oct 27, 2020  02:18:17
+$end
+$version
+    TOOL:	xmsim	19.09-s012
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb_full_add $end
+$var reg       1 !    a $end
+$var reg       1 "    b $end
+$var reg       1 #    c $end
+$var wire      1 $    diff  $end
+$var wire      1 %    borrow  $end
+
+$scope module fal $end
+$var wire      1 &    a  $end
+$var wire      1 '    b  $end
+$var wire      1 (    c  $end
+$var wire      1 $    diff  $end
+$var wire      1 %    borrow  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+x!
+x"
+x#
+x$
+x%
+x&
+x'
+x(
+$end
+#10
+0!
+0"
+0#
+0(
+0'
+0&
+0$
+0%
+#20
+1#
+1(
+1%
+1$
+#30
+1"
+0#
+0(
+1'
+#40
+1#
+1(
+0$
+#50
+1!
+0"
+0#
+0(
+0'
+1&
+0%
+1$
+#60
+1#
+1(
+0$
+#70
+1"
+1'
+1%
+1$
+#70
